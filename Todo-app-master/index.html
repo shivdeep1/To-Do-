@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Working with JavaScript Dom</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">To Do</h1>
+                <p>Focus, from work to play</p>
+                <form id="search-movies">
+                    <input type="text" placeholder="Search List">
+                </form>
+            </div>
+        </header>
+        <div id="movie-list">
+            <h2 class="title">My Day</h2>
+            <ul>
+                <li>
+                    <span class="name">Send report to Frank</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Finish presentation</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Prepare workshop</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Buy Grocery items</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Check email</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-movie">
+            <input type="checkbox" id="hide">
+            <label for="hide">Hide the List</label>
+            <input type="text" placeholder="New task">
+            <button>Add</button>
+        </form>        
+    </div>
+    
+   <script src="movieapp.js"></script>
+</body>    
+</html>
